@@ -1,0 +1,66 @@
+{
+  "custom_fields": [
+    {
+      "title": "Duration Custom Fields",
+      "description": "Helping you calculate the time spent on particular statuses within an issue. Working calendars are also used for this, making calculations even more relevant to your team.",
+      "image": "1.jpg"
+    },
+    {
+      "title": "Duration Custom Fields",
+      "description": "Helping you calculate the time spent on particular statuses within an issue. Working calendars are also used for this, making calculations even more relevant to your team.",
+      "image": "2.jpg"
+    },
+    {
+      "title": "Duration Custom Fields",
+      "description": "Helping you calculate the time spent on particular statuses within an issue. Working calendars are also used for this, making calculations even more relevant to your team.",
+      "image": "3.jpg"
+    },
+    {
+      "title": "Duration Custom Fields",
+      "description": "Helping you calculate the time spent on particular statuses within an issue. Working calendars are also used for this, making calculations even more relevant to your team.",
+      "image": "4.jpg"
+    }
+  ],
+  "workflows": [
+    {
+      "title": "Workflow Conditions",
+      "description": ["User Group and/or Project Role", "User Custom Field", "Previous Status", "Parent Issue JQL", "User Non-Reporter", "Date Comparison" ],
+      "color": "orange",
+      "image": "1.svg"
+    },
+    {
+      "title": "Workflow Validators",
+      "description": ["Field Has Been Set", "User Project Role", "Parent Issue Status", "Parent Issue JQL", "Subtask JQL", "Date Comparison"],
+      "color": "light-blue",
+      "image": "2.svg"
+    },
+    {
+      "title": "Workflow Post Functions",
+      "description": ["Assign Issue to User in Custom Field", "Assign Issue to Specific User Role (incl. Based on Issue Field)", "Notify When Field Set in Transition", "Update Linked Issue Custom Field/Field Value With Current Issue", "Add Subtask User(s) to Parent Issue Watcher List"],
+      "color": "cyan",
+      "image": "3.svg"
+    }
+  ],
+  "reports": [
+    {
+      "title": "Average Time Between Bar Chart",
+      "description": "This handy gadget does exactly what it says on the tin, it displays the average amount of time (either weekly or monthly) between transitions. Use this to check the amount of time between In Progress - Resolved status for example.",
+      "image": "1.jpg"
+    },
+    {
+      "title": "User Performance Gadget",
+      "description": "Want to see the performance of your team at one glance? Then use this gadget to display valuable metrics such as the resolutions count, original estimation vs resolution time, reopenings, and linked issues per user.",
+      "image": "2.jpg"
+    },
+    {
+      "title": "Number Custom Field Analyzer",
+      "description": "This colorful gadget displays the analyzed results of the selected number custom field and groups them by any field within that issue. Our customers love this trusty gadget because it does all of the hard work for you.",
+      "image": "3.jpg"
+    },
+    {
+      "title": "Resolutions vs Reopenings Gadget",
+      "description": "This gadget is another customer favorite. You can use it to display the resolution counts versus the reopening counts for each user. A simple but effective gadget that you’ll wish that you’d discovered sooner.",
+      "image": "4.jpg"
+    }
+  ]
+}

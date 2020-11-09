@@ -1,0 +1,22 @@
+@function strip-units ($number) {
+	@if type-of($number) == "number" and not unitless($number) {
+		@return $number / ($number * 0 + 1);
+	}
+	@return $number;
+}
+
+// Получение размера в `em` от указанного значения
+@function em ($value, $base: $font-size, $unit: 1em) {
+	@if not unitless($value) {
+		$value: strip-units($value);
+	}
+	@if not unitless($base) {
+		$base: strip-units($base);
+	}
+	@return ($value / $base) * $unit;
+}
+
+// Получение размера в `rem` от указанного значения
+@function rem ($value, $base: $font-size) {
+	@return em($value, $base, 1rem);
+}

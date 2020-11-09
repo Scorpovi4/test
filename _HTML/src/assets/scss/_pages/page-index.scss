@@ -1,0 +1,112 @@
+@import "../_system";
+
+.view-index {
+  &__intro {
+    padding: rem(100) 0 rem(30);
+    @include media (md) {
+      padding: rem(150) 0;
+    }
+    background-color: $gray-blue;
+    &-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      @include media (md) {
+        justify-content: space-between;
+      }
+
+      & > div {
+        flex-basis: 100%;
+        @include media (md) {
+          flex-basis: 50%;
+        }
+      }
+    }
+    &-info {
+      max-width: 470px;
+      h1 {
+        margin-bottom: rem(25);
+      }
+    }
+    &-image {
+      text-align: center;
+    }
+    &-controls {
+      margin-top: rem(30);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @include media (md) {
+        justify-content: flex-start;
+      }
+      & .button {
+        margin-right: rem(30);
+      }
+    }
+  }
+
+  &__advantages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: rem(40) 0 rem(50);
+    @include media (md) {
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      padding: rem(115) 0 rem(125);
+    }
+  }
+
+  &__slider {
+    padding: rem(60) 0 rem(55);
+    &-header {
+      text-align: center;
+      margin-bottom: rem(60);
+    }
+    .title {
+      margin-bottom: rem(30);
+    }
+    &-description {
+      max-width: 480px;
+      margin: 0 auto rem(25);
+    }
+    &-controls {
+      & .link {
+        margin-left: rem(36);
+      }
+    }
+    &--gray {
+      background-color: $gray-blue;
+      .view-index__slider-description {
+        margin: 0 auto rem(50);
+      }
+    }
+  }
+
+  &__demo {
+    padding: rem(50) 0;
+    background: #172b4d;
+    text-align: center;
+    @include media (md) {
+      padding: rem(98) 0;
+    }
+    @include media (lg) {
+      background: url(../images/index/bg.svg) no-repeat 50% 0/contain #172b4d;
+    }
+    & .title {
+      color: $white;
+      margin-bottom: rem(30);
+    }
+    & .view-text {
+      color: rgba($white, 0.8);
+      max-width: 450px;
+      margin: 0 auto rem(30);
+    }
+    &-container {
+      max-width: 600px;
+    }
+  }
+}
+
+
+

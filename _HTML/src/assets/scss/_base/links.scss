@@ -1,0 +1,24 @@
+a { 
+  color: inherit; 
+  text-decoration: none;
+  display: inline-block;
+  &.link {
+    color: $blue;
+    font-weight: 500;
+    position: relative;
+    z-index: 2;
+    &::before {
+      content: '';
+      height: 1px;
+      width: 0;
+      position: absolute;
+      top: 100%;
+      background-color: $blue;
+      transition: .3s ease-out;
+    }
+    &:hover::before {
+      width: 100%;
+      transition: .3s ease-out;
+    }
+  }
+}

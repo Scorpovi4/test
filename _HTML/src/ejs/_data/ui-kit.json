@@ -1,0 +1,51 @@
+{
+"colors": [
+  {
+    "hex": "FFFFFF",
+    "name": "white"
+  },
+  {
+    "hex": "363636",
+    "name": "black"
+  },
+  {
+    "hex": "5F5F5F",
+    "name": "dark"
+  },
+  {
+    "hex": "E0E0E0",
+    "name": "light"
+  },
+  {
+    "hex": "F7BE3B",
+    "name": "orange"
+  },
+  {
+    "hex": "f00",
+    "name": "red"
+  },
+  {
+    "hex": "7DC170",
+    "name": "green"
+  }
+],
+"spaces": [4, 12, 16, 20, 24, 40],
+"search": [
+  {
+    "icon": "clinics.svg",
+    "type": "Клиники"
+  },
+  {
+    "icon": "services.svg",
+    "type": "Услуги"
+  },
+  {
+    "icon": "doctors.svg",
+    "type": "Врачи"
+  },
+  {
+    "icon": "locations.svg",
+    "type": "Расположение"
+  }
+]
+}

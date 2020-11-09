@@ -1,0 +1,27 @@
+@import "_system";
+@import "_settings/_fonts";
+@import "_settings/_normalize";
+
+/*Base site presets*/
+@import "_base/_base";
+@import "_base/view-text";
+@import "_base/breadcrumbs";
+@import "_base/pagination";
+@import "_base/links";
+@import "_base/headers";
+@import "_base/images";
+@import "_base/icons";
+@import "_base/lists";
+@import "_base/tables";
+@import "_base/form";
+@import "_base/buttons";
+@import "_base/map";
+@import "_base/palette";
+@import "_base/elements";
+@import "_base/blocks";
+@import "_base/sliders";
+@import "_base/cards";
+@import "_base/modals";
+
+/*Page widgets*/
+@import "_widgets/view-footer";

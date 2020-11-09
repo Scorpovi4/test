@@ -1,0 +1,20 @@
+{
+  "search": [
+    {
+      "icon": "clinics.svg",
+      "type": "Клиники"
+    },
+    {
+      "icon": "services.svg",
+      "type": "Услуги"
+    },
+    {
+      "icon": "doctors.svg",
+      "type": "Врачи"
+    },
+    {
+      "icon": "locations.svg",
+      "type": "Расположение"
+    }
+  ]
+}

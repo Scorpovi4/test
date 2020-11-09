@@ -1,0 +1,14 @@
+.view-text {
+  color: rgba(66, 82, 110, 0.8);
+  & > * {
+    &:not(:last-child) {
+      margin: 0 0 1.5rem 0;
+    }
+  }
+	& p {
+		font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+  }
+}
