@@ -1,7 +1,7 @@
 # Front-end template for markup
 
-## Развернуть локально
+## Local deployment
 
-Установить node.js если не установлен
-В корне папки, где gulpfile.js вызвать консоль и использовать команду `npm i`
-Затем использовать команду `gulp`
+- install node.js
+- run `npm i` in terminal inside root folder
+- run `gulp` in terminal inside root folder

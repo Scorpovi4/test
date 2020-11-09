@@ -25,7 +25,7 @@ global.$ = {
   distImages: './_HTML/public/assets/images/',
   distIcons: './_HTML/public/assets/icons/',
   distSvg: './_HTML/public/assets/svg/',
-  componentsPath: './_HTML/gulp-components/',
+  componentsPath: './_HTML/components/',
 };
 
 // require all gulp modules
